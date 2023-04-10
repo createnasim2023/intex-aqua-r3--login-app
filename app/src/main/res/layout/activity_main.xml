@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="317dp"
+        android:layout_height="374dp"
+        android:background="#A69A9A"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#2F7C49"
+            android:gravity="center"
+            android:padding="1px"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#F6F0F0"
+            android:textColorHint="#F3EAEA"
+            android:textSize="20sp"
+            app:autoSizeTextType="none" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5px"
+            android:background="#F4EFEF"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:gravity="bottom|center"
+            android:inputType="textPersonName"
+            android:padding="1px"
+            android:text="Name"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5px"
+            android:background="#F4EFEF"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:gravity="bottom|center"
+            android:inputType="textEmailAddress"
+            android:padding="1px"
+            android:text="Email"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextNumberPassword"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5px"
+            android:background="#F4EFEF"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:gravity="bottom|center"
+            android:inputType="numberPassword"
+            android:padding="1px"
+            android:text="Password"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textSize="16sp"
+            app:backgroundTint="#1A7C1E" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:clickable="true"
+                android:text="Google"
+                android:textAlignment="center"
+                android:textColor="#0C0A0A"
+                android:textDirection="firstStrong"
+                android:textSize="14sp"
+                app:backgroundTint="#F6F2F2"
+                app:iconTint="#9C27B0" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:text="Facebook"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="Go to Login "
+            android:textSize="12sp"
+            app:backgroundTint="#309134" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
